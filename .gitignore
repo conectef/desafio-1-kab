@@ -1,0 +1,29 @@
+# Arquivos e pastas de resultados do Robot Framework
+results/
+output.xml
+log.html
+report.html
+*.png
+chromedriver.exe
+interactive_console_output.xml
+
+
+# Arquivos temporários do sistema
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Ambientes virtuais Python
+venv/
+.env/
+.venv/
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs gerais
+*.log
