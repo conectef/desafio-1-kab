@@ -21,9 +21,14 @@ Preencher cep
     Wait Until Element Is Visible      ${BtnCom}      10
     Scroll Element Into View           ${BtnCom}
     Wait Until Element Is Enabled      ${BtnCom}      30
-    Wait Until Keyword Succeeds    5x    5s    Click Element    ${BtnCom}
+    Click no Item                      ${BtnCom}
     Wait Until Element Is Visible      ${InpCep}      30
-    Preencher campo                    ${InpCep}      68628-105
+    Sleep    1
+    Scroll Element Into View           ${InpCep}
+    Wait Until Element Is Enabled      ${InpCep}
+    Click no Item                      ${InpCep}
+    Sleep    1
+    Input Text                         ${InpCep}      68628105
     Should Not Be Empty                ${InpCep}
 
 Comprar produto

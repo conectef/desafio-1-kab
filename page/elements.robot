@@ -10,7 +10,7 @@ ${InpBusca}                xpath=//input[@id="inputBusca"]
 ${InpCep}                  xpath=//input[@id="inputCalcularFrete"]
 
 ${BtnBusca}                xpath=//button[@data-testid="buttonBuscaKabum"]
-${BtnCom}                  xpath=(//div[@class="sc-895a4546-2 bkKYFQ"])[1]
+${BtnCom}                  xpath=(//img[@class="imageCard"])[1]
 ${BtnOkCalc}               xpath=//button[@id="botaoCalcularFrete"]
 ${BtnComprar}              xpath=(//button//span[@class="flex items-center gap-4 text-white text-sm flex-row"])[1]
 ${BtnCarrinho}             xpath=//span[@class="flex items-center gap-4 text-white text-sm flex-row"]

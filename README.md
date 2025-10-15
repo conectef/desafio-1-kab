@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 robotframework
 robotframework-seleniumlibrary
-robot -d ./5-results ./test/
+robot -d ./results ./test/
 
 desafio-1-kabum/
 │
@@ -42,5 +42,5 @@ desafio-1-kabum/
 │
 ├── requirements.txt        # Dependências do projeto
 └── README.md               # Documentação do projeto
-├── .gitignore              
+├── .gitignore
 
